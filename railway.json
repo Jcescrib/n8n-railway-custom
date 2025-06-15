@@ -1,0 +1,16 @@
+{
+  "services": [
+    {
+      "name": "n8n-primary",
+      "build": {
+        "dockerfile": "primary/Dockerfile"
+      }
+    },
+    {
+      "name": "n8n-worker",
+      "build": {
+        "dockerfile": "worker/Dockerfile"
+      }
+    }
+  ]
+}
